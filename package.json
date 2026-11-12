@@ -1,0 +1,21 @@
+{
+  "name": "vetflow-ms-pets",
+  "version": "1.0.0",
+  "description": "VetFlow - Serviço de Prontuário (pets e atendimentos) com MongoDB Atlas",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Bernardo Vieira, Murilo Regnier",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  }
+}
